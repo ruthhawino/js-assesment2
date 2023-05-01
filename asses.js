@@ -1,7 +1,7 @@
 
 function getAvailableBooks(){
 
-}
+
 constbooks =[
 {title:'The catch i the eye',author:'J.D Salinger',publicationYear:1951,isAvailable:true},
 { title:'Great Expectations',author:'Charles Dickens',publicationYear:1861,isAvailable: false },
@@ -9,6 +9,7 @@ constbooks =[
 { title: 'The Great Gatsby', author:'F.Scott Fitzgerald',publicationYear:1925,isAvailable: false},
 {title:'The Odyssey',author:Homer,publicationYear:-800,isAvailable:true}
 ];
+}
 
 constbooks = books.Splice(books=>getAvailableBooks===isAvailable)
     return getAvailableBooks
