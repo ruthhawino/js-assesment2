@@ -48,3 +48,25 @@ function checkoutBook(title){
     checkoutBook(books=>books.author==="Charle Dickens" && books !=books.isAvailable===false)
     print("The book title is not available")
 }
+
+
+
+//5. Create a function returnBook that takes a book title as an argument and changes the
+//book's isAvailable property to true. If the book is not found in the library, the function
+//should return a message indicating that the book does not belong to the library.
+function findBookInlibrary(books){
+let library=books
+
+
+
+for (var i = 0; i < books.length; i++) 
+   {
+    var book = "'" + books[i].title + "'" + ' by ' + books[i].author + ".";
+    if (library[i].author) {
+      console.log("The author is Trevor Noah" + book);
+    } else
+    {
+     console.log("The author is not Trevor Noah" + book);
+    }
+   }
+}
